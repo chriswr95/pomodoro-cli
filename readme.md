@@ -1,4 +1,5 @@
-This will be an app.
+## About
+This is a CLI app I'm tinkering with in my spare time.
 
 ### Commands
 
