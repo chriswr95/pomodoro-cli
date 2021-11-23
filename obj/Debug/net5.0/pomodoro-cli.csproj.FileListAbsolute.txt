@@ -1,0 +1,16 @@
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli.deps.json
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli.runtimeconfig.json
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli.runtimeconfig.dev.json
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli.dll
+/workspaces/pomodoro-cli/bin/Debug/net5.0/ref/pomodoro-cli.dll
+/workspaces/pomodoro-cli/bin/Debug/net5.0/pomodoro-cli.pdb
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.csproj.AssemblyReference.cache
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.AssemblyInfoInputs.cache
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.AssemblyInfo.cs
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.csproj.CoreCompileInputs.cache
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.dll
+/workspaces/pomodoro-cli/obj/Debug/net5.0/ref/pomodoro-cli.dll
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.pdb
+/workspaces/pomodoro-cli/obj/Debug/net5.0/pomodoro-cli.genruntimeconfig.cache
