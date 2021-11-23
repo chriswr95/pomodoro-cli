@@ -7,7 +7,7 @@ namespace pomodoro_cli
         private Timer timer;
         private string topic;
 
-        private long ticksRemaining = (25 * TimeSpan.TicksPerMinute) - TimeSpan.TicksPerSecond;
+        private long ticksRemaining = (1 * TimeSpan.TicksPerMinute) - TimeSpan.TicksPerSecond;
 
         public Pomodoro(Timer timer, string topic)
         {
@@ -40,9 +40,17 @@ namespace pomodoro_cli
 
         private void OnTick(Object source, ElapsedEventArgs e)
         {
-            var timeSpan = new TimeSpan(ticksRemaining);
-            Console.Write($"\r{timeSpan.Minutes}:{timeSpan.Seconds}");
-            ticksRemaining = ticksRemaining - TimeSpan.TicksPerSecond;
+            if (ticksRemaining < TimeSpan.TicksPerSecond)
+            {
+                Console.WriteLine("\rFinished!");
+                Stop();
+            }
+            else
+            {
+                var timeSpan = new TimeSpan(ticksRemaining);
+                Console.Write($"\r{timeSpan.Minutes}:{timeSpan.Seconds}");
+                ticksRemaining = ticksRemaining - TimeSpan.TicksPerSecond;
+            }
         }
     }
 }
