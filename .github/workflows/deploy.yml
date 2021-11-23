@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-dotnet@v1
-    - run: dotnet build pomodoro-cli
+    - run: dotnet build pomodoro-cli.csproj
